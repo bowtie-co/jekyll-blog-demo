@@ -34,6 +34,8 @@
 
 ## Extra Credit
 
+- [ ] Add/update more collections, templates, includes, styles, etc
+  - Aim to demonstrate deeper understanding of the patterns & technologies
 - [ ] Setup & utilize [bootstrap framework](https://getbootstrap.com/)
   - Improve and customize styles, responsiveness, etc
 - [ ] Add new/custom [jekyll plugins](https://jekyllrb.com/docs/plugins/)

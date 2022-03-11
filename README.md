@@ -28,42 +28,42 @@ Jekyll Blog Demo Project
 
 ## Setup
 
-1. Fork this repo
-  - From demo repo page, click `Fork` button near top right:
-  ![pre fork](assets/img/pre-fork.png)
-  - Select **your username** and wait for fork to be created
-  - After fork is created, you will be on page with new repo *(example below)*
-  ![post fork](assets/img/post-fork.png)
+1) Fork this repo
+    - From demo repo page, click `Fork` button near top right:
+    ![pre fork](assets/img/pre-fork.png)
+    - Select **your username** and wait for fork to be created
+    - After fork is created, you will be on page with new repo *(example below)*
+    ![post fork](assets/img/post-fork.png)
 2. Clone repo from your fork
-  - Select `Code` dropdown and copy clone url using SSH
-  - *[Click here to learn about SSH keys on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)*
-  ![clone ssh](assets/img/clone-ssh.png)
-  - Navigate to desired parent workinig directory
-  ```bash
-  cd ~/development # or wherever you want to save your local repo
-  ```
-  - Paste copied clone url to clone repo *(or clone with git GUI)*
-  ```bash
-  git clone git@github.com:myusername/jekyll-blog-demo
-  ```
+    - Select `Code` dropdown and copy clone url using SSH
+    - *[Click here to learn about SSH keys on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)*
+    ![clone ssh](assets/img/clone-ssh.png)
+    - Navigate to desired parent workinig directory
+    ```bash
+    cd ~/development # or wherever you want to save your local repo
+    ```
+    - Paste copied clone url to clone repo *(or clone with git GUI)*
+    ```bash
+    git clone git@github.com:myusername/jekyll-blog-demo
+    ```
 3. Open local repo directory
-  - Change directories into newly cloned repo dir:
-  ```bash
-  cd jekyll-blog-demo
-  ```
+    - Change directories into newly cloned repo dir:
+    ```bash
+    cd jekyll-blog-demo
+    ```
 4. Install dependencies
-  - *This will install all gems specified in `Gemfile`*
-  ```bash
-  bundle install
-  ```
+    - *This will install all gems specified in `Gemfile`*
+    ```bash
+    bundle install
+    ```
 5. Run local Jekyll dev server
-  - *You can add omit the `--livereload` to restart manually on updates*
-  ```bash
-  bundle exec jekyll serve --livereload
-  ```
+    - *You can add omit the `--livereload` to restart manually on updates*
+    ```bash
+    bundle exec jekyll serve --livereload
+    ```
 6. Visit local dev url
-  - Open [http://localhost:4000](http://localhost:4000) in your browser
-  - *Local dev port can be changed if needed. [(see config options here)](https://jekyllrb.com/docs/configuration/options/)*
+    - Open [http://localhost:4000](http://localhost:4000) in your browser
+    - *Local dev port can be changed if needed. [(see config options here)](https://jekyllrb.com/docs/configuration/options/)*
 
 ---
 
@@ -98,6 +98,8 @@ Jekyll Blog Demo Project
 
 ## Extra Credit
 
+- [ ] Add/update more collections, templates, includes, styles, etc
+  - Aim to demonstrate deeper understanding of the patterns & technologies
 - [ ] Setup & utilize [bootstrap framework](https://getbootstrap.com/)
   - Improve and customize styles, responsiveness, etc
 - [ ] Add new/custom [jekyll plugins](https://jekyllrb.com/docs/plugins/)
