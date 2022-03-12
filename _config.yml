@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Garden & Fun Magazine
+title: Garden & Fun
 email: sarahmayharel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Garden & Fun. We talk about gardening, art history,
@@ -33,6 +33,30 @@ github_username:  sarahmay-harel
 theme: minima
 plugins:
   - jekyll-feed
+
+# Collections
+collections:
+  authors:
+    output: true
+
+#Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+      values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+      values:
+      layout: "post"
+  - scope:
+      path: ""
+      values:
+      layout: "default"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,54 @@
+---
+layout: default
+title: About | Garden & Fun
+subtitle: Learn about us
+---
+<h1>Hello, gardeners!</h1>
+
+<p>Welcome to Garden & Fun. We talk about gardening, art history, cancelled and should-be-cancelled CW shows, and being terminally online.</p>
+
+<h2>Read Our Thoughts</h2>
+<p>Here are some of our latest posts:</p>
+
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Meet the Staff</h2>
+<p>Great websites are made by great teams. We have the best spread of talent, from an encyclopedic
+  knowledge of every viral Tweet that was stolen from a Tumblr post (Talia) to website development
+  skills (SarahMay), to the ability to sit still all day staring out a window and then go completely
+  bouncing-off-the-walls mad without fail every night at 11 PM (Buffy), our unique team is the best 
+  around.</p>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/authors/talia.html">
+      <img src="https://i.imgur.com/aNMexu1.png" alt="Talia Harel" width="600" height="400">
+    </a>
+    <div class="desc">Talia, Editor</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/authors/sarahmay.html">
+      <img src="https://i.imgur.com/Zp5ZaiM.png" alt="SarahMay Harel" width="600" height="400">
+    </a>
+    <div class="desc">SarahMay, Editor</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/authors/sarahmay.html">
+      <img src="https://i.imgur.com/bYIDIvu.png" alt="Buffy the Cat" width="600" height="300">
+    </a>
+    <div class="desc">Buffy, Cat</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>

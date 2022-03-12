@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <div class="flex-wrapper">
+     <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <div class="container">
+  <body>
+    {% include navigation.html %}
+    <div class="content"> {{ content }} </div>
+  </body>
+</div>
+<div class="footer">
+  <footer>
+    {% include footer.html %}
+  </footer>
+</div>
+</div>
+</html>
