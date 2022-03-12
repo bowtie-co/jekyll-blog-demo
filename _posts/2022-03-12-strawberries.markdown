@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Strawberries"
+subtitle: "Objectively the Best Fruit"
 short_name: sarahmay
 author: sarahmay
 published: true

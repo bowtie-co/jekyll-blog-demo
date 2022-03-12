@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Apples"
+subtitle: "One A Day Keeps the Doctor Away"
 short_name: sarahmay
 author: sarahmay
 published: true

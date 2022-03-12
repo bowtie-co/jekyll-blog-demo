@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Kiwifruit"
+subtitle: "The Fuzziest Fruit"
 short_name: talia
 author: talia
 published: true

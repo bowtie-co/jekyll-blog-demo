@@ -72,11 +72,11 @@ Jekyll Blog Demo Project
 - [x] New Jekyll Project
   - *Already done, this repo is a fresh `jekyll new ...` project*
   - See [https://jekyllrb.com/docs](https://jekyllrb.com/docs) for more info
-- [ ] Review expected file usage & structure
+- [x] Review expected file usage & structure
   - `page` uses `layout`
   - `page` `layout` contains an `include` for listing items
   - each `item` is output to a new `layout`
-- [ ] Build a collection of content block items
+- [x] Build a collection of content block items
   - Each content block item should have a `title` and `subtitle` in the `frontmatter` and some lorem in the main content (below the frontmatter)
   - Each content block item should also have a `published` setting in the frontmatter
     - *This should be a `boolean` field type (values: `true` | `false`)*
