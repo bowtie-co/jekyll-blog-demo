@@ -81,16 +81,16 @@ Jekyll Blog Demo Project
   - Each content block item should also have a `published` setting in the frontmatter
     - *This should be a `boolean` field type (values: `true` | `false`)*
     - **Note:** *`yaml` [supports a wide range of "valid" boolean values](https://yaml.org/type/bool.html)*, but `true` / `false` is most common.
-- [ ] In a new section (or include snippet), loop through each item in your collection and output them into content blocks, omitting any blocks whose `published` setting is `false`.
-- [ ] Create a page to hold that section (homepage is fine) and render into the browser.
+- [x] In a new section (or include snippet), loop through each item in your collection and output them into content blocks, omitting any blocks whose `published` setting is `false`.
+- [x] Create a page to hold that section (homepage is fine) and render into the browser.
   - **Note: Don't forget to export the `collection`, `section` and `page` from the `_config.yml`**
   - See [https://jekyllrb.com/docs](https://jekyllrb.com/docs) for more info
-- [ ] Create several *(at least 3)* items (posts) under your new collection
+- [x] Create several *(at least 3)* items (posts) under your new collection
   - At least 1 where: `published=true`
   - At least 1 where: `published=false`
   - Test different data/values in "frontmatter" and content blocks
-- [ ] Commit changes *(can use a new/custom branch name)*
-- [ ] Push changes *(to **your** forked repo)*
+- [x] Commit changes *(can use a new/custom branch name)*
+- [x] Push changes *(to **your** forked repo)*
 - [ ] Open a pull request against this repo (`bowtie-co/jekyll-blog-demo`)
 - [ ] Add any additional info and/or questions you might have
 

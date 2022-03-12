@@ -33,6 +33,7 @@ github_username:  sarahmay-harel
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Collections
 collections:
