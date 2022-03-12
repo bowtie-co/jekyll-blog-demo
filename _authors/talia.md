@@ -9,4 +9,4 @@ position: Editor - Politics, Art, & Pop Culture
 <br>
 <br>
 
-Talia is a news junkie, classic art afficionado, coffee connoisseur, and INFJ. Her pet peeves are peer pressure, bad policy, and people. Talk to her about the Titanic, why Tumblr is the ideal social media platform, and where to get the best cream puffs in NYC.
+Talia is a political science major, classic art afficionado, coffee connoisseur, and INFJ. Her pet peeves are peer pressure, bad policy, and people. Talk to her about the Titanic, why Tumblr is the ideal social media platform, and where to get the best cream puffs in NYC.
