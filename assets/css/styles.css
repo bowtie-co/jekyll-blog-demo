@@ -89,12 +89,12 @@ ul li {
     max-width: 10%;
 }
 
-.bowtie {
+.logo {
   text-align: center;
 }
 
-.bowtietiny {
-  max-width: 2%;
+.logotiny {
+  max-width: 4%;
 }
 
 /*footer styling*/
