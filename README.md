@@ -102,8 +102,8 @@ Jekyll Blog Demo Project
   - Aim to demonstrate deeper understanding of the patterns & technologies
 - [ ] Setup & utilize [bootstrap framework](https://getbootstrap.com/)
   - Improve and customize styles, responsiveness, etc
-- [ ] Add new/custom [jekyll plugins](https://jekyllrb.com/docs/plugins/)
-- [ ] Build and deploy static site as demo
+- [x] Add new/custom [jekyll plugins](https://jekyllrb.com/docs/plugins/)
+- [x] Build and deploy static site as demo
   ```bash
   # Build compiled static site (default out dir: "_site")
   bundle exec jekyll build

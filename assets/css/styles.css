@@ -23,19 +23,23 @@ body {
     padding: 3vw 6vw;
 }
 
-.hero {
-    border-radius: 30%;
-    max-width: 20%;
-}
+/*link styling*/
 
 a {
-    color: grey; 
-    text-decoration: none;
+    color: gray; 
+    text-decoration: underline;
 }
 
 a:hover {
     color: hotpink;
 }
+
+.current {
+  color: hotpink;
+}
+
+
+/*navigation styling*/
 
 nav {
     padding: 2vw;
@@ -46,7 +50,15 @@ nav {
 
 nav a {
     color: black;
+    text-decoration: none;
+  }
+
+.footernav {
+  padding: 0;
+  text-align: left;
 }
+
+/*list styling*/
 
 ul li {
    text-align: left;
@@ -60,8 +72,12 @@ ul li {
     margin: 10px 0;
 }
 
-.current {
-    color: hotpink;
+
+/*image styling*/
+
+.hero {
+  border-radius: 30%;
+  max-width: 20%;
 }
 
 .circleimage {
@@ -73,6 +89,16 @@ ul li {
     max-width: 10%;
 }
 
+.bowtie {
+  text-align: center;
+}
+
+.bowtietiny {
+  max-width: 2%;
+}
+
+/*footer styling*/
+
 footer {
     color: black;
     background-color: white;
@@ -81,6 +107,8 @@ footer {
 footer a {
     color: gray;
 }
+
+/*footer columns*/
 
 .column {
     float: left;
@@ -94,7 +122,7 @@ footer a {
     clear: both;
 }
   
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
@@ -117,17 +145,19 @@ footer a {
     text-align: center;
   }
   
-  * {
-    box-sizing: border-box;
-  }
-  
   .responsive {
-      text-align: center;
+    text-align: center;
     padding: 0 6px;
     float: left;
     width: 24.99999%;
   }
   
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
@@ -139,10 +169,4 @@ footer a {
     .responsive {
       width: 100%;
     }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
   }
