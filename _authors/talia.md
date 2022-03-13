@@ -1,5 +1,6 @@
 ---
 layout: author
+title: Talia, Editor
 short_name: Talia
 name: Talia Harel
 position: Editor - Politics, Art, & Pop Culture

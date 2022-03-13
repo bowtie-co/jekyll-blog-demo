@@ -1,5 +1,6 @@
 ---
 layout: author
+title: Buffy, Chief Executive Aww-fficer
 short_name: Buffy
 name: Buffy
 position: Chief Executive Awww-fficer

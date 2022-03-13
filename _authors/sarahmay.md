@@ -1,5 +1,6 @@
 ---
 layout: author
+title: SarahMay, Editor
 short_name: SarahMay
 name: SarahMay Harel
 position: Editor - Nature & Computer Science
