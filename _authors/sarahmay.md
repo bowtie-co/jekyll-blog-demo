@@ -10,4 +10,4 @@ position: Editor - Nature & Computer Science
 <br>
 <br>
 
-SarahMay is a novice gardener, a skillful front end developer, and a prodigous cat can opener. Her favorite plants are Raven ZZ, Philodendron Brazil, and Philodendron Micans. You can find her writng code and making custom potting soil in NYC.
+SarahMay is a novice gardener, a skillful front end developer, and a prodigous cat can opener. Her favorite plants are Raven ZZ, Philodendron Brazil, and Philodendron Micans. You can find her writing code and making custom potting soil in NYC.
