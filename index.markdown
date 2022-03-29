@@ -31,5 +31,5 @@ div.slide-down h1 {
 <div class="slide-down">
 
 <h1>Welcome to Garden & Fun!</h1>
-<p><a href="/about.html"> About</a> | <a href="/blog.html">Blog</a> | <a href="/staff.html">Staff</a></p>
+<p><a href="/about.html"> About</a> &#8226; <a href="/blog.html">Blog</a> &#8226; <a href="/staff.html">Staff</a></p>
 </div>
