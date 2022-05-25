@@ -1,0 +1,25 @@
+---
+layout: default
+title: Staff
+subtitle: The Best and Brightest
+---
+<h1>Meet The {{ page.title }}</h1>
+<h3>{{ page.subtitle }}</h3>
+<p>Great websites are made by great teams. We have the best talent, from an encyclopedic knowledge of every viral Tweet that was stolen from a Tumblr post (Talia) to website development skills (SarahMay), to the ability to sit still all day staring out a window and then go completely bouncing-off-the-walls mad without fail every night at 11 PM (Buffy), our unique team is the best around.</p>
+<br>
+<hr>
+<ul>
+  {% for author in site.authors %}
+    <li class="nobullet">
+        <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+      <h3>&nbsp;&nbsp;{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+  {% endfor %}
+</ul>

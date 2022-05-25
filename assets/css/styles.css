@@ -1,0 +1,172 @@
+---
+---
+@import "main";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 1vw 3.5vw;
+    line-height: 1.6;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 3vw 6vw;
+}
+
+/*link styling*/
+
+a {
+    color: gray; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.current {
+  color: hotpink;
+}
+
+
+/*navigation styling*/
+
+nav {
+    padding: 2vw;
+    background-color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+  }
+
+.footernav {
+  padding: 0;
+  text-align: left;
+}
+
+/*list styling*/
+
+ul li {
+   text-align: left;
+}
+
+.nobullet {
+    list-style-type: none;
+}
+
+.spacedlist {
+    margin: 10px 0;
+}
+
+
+/*image styling*/
+
+.hero {
+  border-radius: 30%;
+  max-width: 20%;
+}
+
+.circleimage {
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+.tiny {
+    max-width: 10%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logotiny {
+  max-width: 4%;
+}
+
+/*footer styling*/
+
+footer {
+    color: black;
+    background-color: white;
+}
+
+footer a {
+    color: gray;
+}
+
+/*footer columns*/
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px 30px 10px; 
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media only screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+/*image gallery*/
+ 
+  div.gallery:hover {
+    opacity: 0.75;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 30%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .responsive {
+    text-align: center;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
